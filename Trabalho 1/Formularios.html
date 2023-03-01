@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastros</title>
+</head>
+
+<body>
+    <h1>Formulário</h1>
+    <form method="get">
+        <fieldset style="width: 530px">
+            <legend>Dados Pessoais</legend>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" value="" required><br><br>
+            <label for="date">Data de Nascimento:</label>
+            <input type="text" id="date" value="" required><br><br>
+            <label for="adress">Endereço:</label>
+            <input type="text" id="adress" value="" required><br><br>
+            <label for="district">Bairro:</label>
+            <input type="text" id="district" value="" required>
+            <label for="city">Cidade:</label>
+            <input type="text" id="city" value="" required><br><br>
+            <label for="code">CEP:</label>
+            <input type="text" id="code" value="" required>
+            <label for="state">Estados:</label>
+            <select id="state" required>
+                <option value="Ceara">Ceará</option>
+                <option value="Brasilia">Brasília</option>
+                <option value="Goias">Goiás</option>
+                <option value="Acre">Acre</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="Maranhao">Maranhão</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="Bahia">Bahia</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select>
+        </fieldset> <br>
+        <fieldset style="width: 530px">
+            <legend>Dados Profissionais</legend>
+            <p>Natureza do Cargo</p>
+            <input type="radio" id="gerency" value="gerencia" name="Cargo">
+            <label for="gerency">Gerência</label>
+            <input type="radio" id="financies" value="financeiro" name="Cargo">
+            <label for="financies">Financeiro</label>
+            <input type="radio" id="reception" value="recepcao" name="Cargo">
+            <label for="reception">Recepção</label>
+            <input type="radio" id="administrative" value="administracao" name="Cargo">
+            <label for="administrative">Administrativo</label>
+            <input type="radio" id="judy" value="judiciario" name="Cargo">
+            <label for="judy">Jurídico</label>
+            <br>
+            <p>Área de Interesse</p>
+            <input type="checkbox" id="computation" name="area" value="computacao">
+            <label for="computation">Computação</label>
+            <input type="checkbox" id="chemistry" name="area" value="quimica">
+            <label for="chemistry">Química</label>
+            <input type="checkbox" id="enviroment" name="area" value="Meio Ambiente">
+            <label for="enviroment">Meio Ambiente</label>
+            <input type="checkbox" id="engineer" name="area" value="engenharia">
+            <label for="engineer">Engenharia</label>
+            <input type="checkbox" id="math" name="area" value="matematica">
+            <label for="math">Matemática</label><br><br>
+            <label for="Curriculum">Mini-Curriculo:</label><br>
+            <textarea type="text" id="Curriculum" rows="8px" cols="50px"></textarea>
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+    </form>
+    <br>
+    <hr>
+    <h1>Links</h1>
+    <a href="./tabelas.html" target="_blank">TABELAS</a><br>
+
+
+</body>
+
+</html>
